@@ -2,7 +2,6 @@
 
 // import Image from 'next/image';
 import { Tabs } from '@/components/ui/Tabs';
-import { TbDeviceDesktopAnalytics } from 'react-icons/tb';
 import Image from 'next/image';
 
 export function Services() {
