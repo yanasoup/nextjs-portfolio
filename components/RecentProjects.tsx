@@ -45,7 +45,7 @@ const content = [
     description:
       'An excercise project. It is a marketplace website with a responsive layout for desktop and mobile devices. Include payment feature using 3rd party payment gateway (MidTrans). Developed using React JS.',
     content: (
-      <div className='p-4 relative h-full w-full items-center justify-center bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] text-white'>
+      <div className='relative p-4 h-full w-full items-center justify-center bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] text-white'>
         <Image
           src='/portfolio/lapakpedia.png'
           width={300}
@@ -59,27 +59,12 @@ const content = [
           target='_blank'
         >
           <MagicButton
-            title='Visit Live Site'
+            title='Visit Site'
             icon={<FaLocationArrow />}
             position='right'
             size='small'
           />
         </a>
-      </div>
-    ),
-  },
-  {
-    title: 'PlacePicker',
-    description: 'An excercise project developed using React JS.',
-    content: (
-      <div className='p-4 flex h-full w-full items-center justify-center bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] text-white'>
-        <Image
-          src='/portfolio/reactplacepicker.png'
-          width={300}
-          height={300}
-          className='h-full w-full object-cover rotate-2 rounded-md'
-          alt='React JS Placepicker'
-        />
       </div>
     ),
   },
@@ -103,7 +88,7 @@ const content = [
     description:
       'A chicken farm website in Bandung, Indonesia. with capability to sent order inquiry, order notification to telegram and email and online order tracking. Developed using ReactJS and Laravel.',
     content: (
-      <div className='p-4 flex h-full w-full items-center justify-center text-white'>
+      <div className='relative p-4 flex h-full w-full items-center justify-center text-white'>
         <Image
           src='/portfolio/samoja-farm.png'
           width={300}
@@ -111,9 +96,66 @@ const content = [
           className='h-full w-full object-cover object-top rotate-2 rounded-md'
           alt='samoja farm - react js website'
         />
+        <a
+          className='absolute bottom-1 right-1'
+          href='https://samojafarm-yanasoup.web.app'
+          target='_blank'
+        >
+          <MagicButton
+            title='Visit Site'
+            icon={<FaLocationArrow />}
+            position='right'
+            size='small'
+          />
+        </a>
       </div>
     ),
   },
+  {
+    title: 'Transaction Anomaly alerting System',
+    description:
+      'Fullstack Web Development / Machine Learning (BigQuery AutoML, PHP, Telegram API)',
+    content: (
+      <div className='p-4 flex h-full w-full items-center justify-center bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] text-white'>
+        <Image
+          src='/portfolio/telegram-ml-alert.jpg'
+          width={300}
+          height={300}
+          className='h-full w-full object-cover rotate-2 rounded-md'
+          alt='Transaction Anomaly alerting System'
+        />
+      </div>
+    ),
+  },
+  {
+    title: 'UPoint Deposit',
+    description:
+      'Multi tenant web application to manage partner deposit (topup, manual refund, view balance and transaction reporting). developed using CodeIgniter, JQuery, BigQuery API',
+    content: (
+      <div className='relative p-4 flex h-full w-full items-center justify-center text-white'>
+        <Image
+          src='/portfolio/deposit.jpg'
+          width={300}
+          height={300}
+          className='h-full w-full object-cover object-top rotate-2 rounded-md'
+          alt='samoja farm - react js website'
+        />
+        <a
+          className='absolute bottom-1 right-1'
+          href='https://deposit.upoint.co.id'
+          target='_blank'
+        >
+          <MagicButton
+            title='Visit Site'
+            icon={<FaLocationArrow />}
+            position='right'
+            size='small'
+          />
+        </a>
+      </div>
+    ),
+  },
+
   {
     title: 'Manajemen Billing',
     description:
@@ -130,6 +172,22 @@ const content = [
       </div>
     ),
   },
+  {
+    title: 'PlacePicker',
+    description: 'An excercise project developed using React JS.',
+    content: (
+      <div className='p-4 flex h-full w-full items-center justify-center bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] text-white'>
+        <Image
+          src='/portfolio/reactplacepicker.png'
+          width={300}
+          height={300}
+          className='h-full w-full object-cover rotate-2 rounded-md'
+          alt='React JS Placepicker'
+        />
+      </div>
+    ),
+  },
+
   {
     title: '',
     description: '',

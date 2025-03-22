@@ -112,8 +112,8 @@ export const InfiniteMovingCards = ({
                 className='user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]'
               ></div>
               {/* change text color, text-lg */}
-              <span className=' relative z-20 text-sm md:text-lg leading-[1.6] text-white font-normal'>
-                {item.quote}
+              <span className=' relative z-20 text-sm md:text-lg leading-[1.6] text-white font-normal italic'>
+                &quot;{item.quote}&quot;
               </span>
               <div className='relative z-20 mt-6 flex flex-row items-center'>
                 <div className='me-3 rounded-full h-12'>

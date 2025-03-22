@@ -42,8 +42,7 @@ function Hero() {
             Hi! I&apos;m Yana, a Full Stack Developer based in Indonesia.
           </p>
           <p className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-80'>
-            I Can Help you Build Dynamic Modern Web Magic with React / Next.JS,
-            by
+            I Can Help you Build Dynamic Modern Web with React / Next.JS, by
           </p>
           <TextGenerateEffect
             words='Transforming Concepts into Seamless User Experiences'
