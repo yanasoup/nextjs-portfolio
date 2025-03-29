@@ -128,6 +128,22 @@ const content = [
     ),
   },
   {
+    title: 'Transaction Forecasting Dashboard',
+    description:
+      'Web Development / BI Dashboard (Looker Studio, BigQuery AutoML)',
+    content: (
+      <div className='p-4 flex h-full w-full items-center justify-center bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] text-white'>
+        <Image
+          src='/portfolio/ml-forecast-chart.jpeg'
+          width={300}
+          height={300}
+          className='h-full w-full object-cover rotate-2 rounded-md'
+          alt='Transaction Forecasting Dashboard'
+        />
+      </div>
+    ),
+  },
+  {
     title: 'UPoint Deposit',
     description:
       'Multi tenant web application to manage partner deposit (topup, manual refund, view balance and transaction reporting). developed using CodeIgniter, JQuery, BigQuery API',
