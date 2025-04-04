@@ -114,7 +114,7 @@ const content = [
   {
     title: 'Transaction Anomaly alerting System',
     description:
-      'Fullstack Web Development / Machine Learning (BigQuery AutoML, PHP, Telegram API)',
+      'Data Analytic / Machine Learning (BigQuery AutoML, PHP, Telegram API)',
     content: (
       <div className='p-4 flex h-full w-full items-center justify-center bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] text-white'>
         <Image
@@ -130,7 +130,7 @@ const content = [
   {
     title: 'Transaction Forecasting Dashboard',
     description:
-      'Web Development / BI Dashboard (Looker Studio, BigQuery AutoML)',
+      'Data Analytic / Business Intelligence (Looker Studio, BigQuery AutoML)',
     content: (
       <div className='p-4 flex h-full w-full items-center justify-center bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] text-white'>
         <Image
@@ -144,9 +144,9 @@ const content = [
     ),
   },
   {
-    title: 'UPoint Deposit',
+    title: 'Deposit System',
     description:
-      'Multi tenant web application to manage partner deposit (topup, manual refund, view balance and transaction reporting). developed using CodeIgniter, JQuery, BigQuery API',
+      'Multi tenant web application to manage partner deposit (realtime balance deduct API, topup, manual refund, view balance and transaction reporting). developed using CodeIgniter, JQuery, BigQuery API',
     content: (
       <div className='relative p-4 flex h-full w-full items-center justify-center text-white'>
         <Image
